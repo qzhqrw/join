@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(100, 148, 237, 0.241);
+}
+.container{
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    height: 600px;
+    width: 400px;
+    margin-left:580px;
+    border-radius: 33px;
+    gap: 2px;
+}
+h1{
+    font-size: x-large;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.empass{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    width: 340px;
+    height: 40px;
+}
+.password{
+    width: 340px;
+    height: 40px;
+}
+.fname{
+    height: 40px; 
+}
+.lname{
+    height: 40px; 
+}
+.facebook{
+    width: 340px;
+    height: 40px;
+    padding: 15px;
+    padding-bottom: 30px;
+    background-color:rgba(71, 61, 139, 0.878) ;
+    color: white;
+}
+.words{
+    column-gap: 2rem;
+}
+.create{
+    background-color:rgb(15, 15, 41);
+    color: white;
+    width: 340px;
+    height: 40px;
+    margin-top: 30px;
+}
+h4{
+    margin-bottom: 30px;
+}
+span{
+    font-size: small;
+}
